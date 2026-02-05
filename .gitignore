@@ -1,0 +1,17 @@
+# Raw data (never upload big datasets)
+01_Raw_Data/
+data/raw/
+*.zip
+
+# Large CSVs (optional — remove if you want small processed CSVs uploaded)
+*.csv
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python (if you use later)
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.env
