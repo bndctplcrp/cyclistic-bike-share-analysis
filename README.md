@@ -1,118 +1,130 @@
 # 🚲 Cyclistic Bike-Share Data Analysis
 
 ## 📌 Project Overview
-This project analyzes Cyclistic bike-share trip data to identify behavioral differences between casual riders and annual members. The goal is to generate insights that support marketing strategies aimed at increasing annual membership conversions and improving long-term revenue.
+
+This project analyzes historical Cyclistic (Divvy) bike-share data to identify behavioral differences between **casual riders** and **annual members**.
+
+The objective is to generate data-driven insights that support marketing strategies aimed at increasing annual membership conversions and improving long-term revenue.
+
+This case study follows the complete Data Analysis Lifecycle:
+
+> **Ask → Prepare → Process → Analyze → Share → Act**
+
+Detailed documentation for each phase is available in the `/docs` folder.
 
 ---
 
 ## 🎯 Business Task
-Analyze historical trip data to understand how casual riders and annual members use Cyclistic bikes differently. The insights will help the marketing team design targeted campaigns to convert casual riders into annual members.
+
+Cyclistic’s Marketing Director identified a key strategic objective:
+
+> Increase the number of annual memberships.
+
+To support this goal, this project answers the question:
+
+> **How do annual members and casual riders use Cyclistic bikes differently?**
+
+The insights from this analysis help inform targeted marketing strategies aimed at converting casual riders into annual members.
 
 ---
 
 ## 👥 Key Stakeholders
-- Marketing Director  
-- Cyclistic Marketing Analytics Team  
-- Cyclistic Executive Team  
+
+- Director of Marketing  
+- Marketing Analytics Team  
+- Executive Leadership Team  
 
 ---
 
-## 🗂 Dataset Information
-- Dataset: Divvy / Cyclistic Trip Data  
-- Period Covered: 2019 (Q1 – Q4)  
-- Data Provider: Motivate International Inc.  
-- Data Type: Trip-level ride data (ride duration, stations, user type, timestamps)  
+## 📂 Data Source
 
-⚠ Raw datasets are excluded from this repository due to size and licensing considerations.
+- **Dataset:** Divvy / Cyclistic Trip Data  
+- **Period Covered:** 2019 (Q1–Q4)  
+- **Provider:** Motivate International Inc.  
+- **Data Type:** Trip-level ride data (timestamps, stations, rider type, duration)
+
+⚠ Raw datasets are excluded from this repository due to file size and data licensing considerations.
 
 ---
 
 ## 🛠 Tools Used
-- Microsoft Excel  
-- SQL (if applicable)  
-- Power BI (if applicable)  
-- Git & GitHub (Version Control and Collaboration)  
+
+- **Microsoft Excel**
+  - Power Query (data cleaning & transformation)
+  - Data Model (large dataset handling)
+  - PivotTables (aggregation & summary statistics)
+  - Dashboard design & visualization
+- **Git & GitHub** (version control and documentation)
 
 ---
 
-## 📊 Analytics Skills Demonstrated
-- Data Cleaning  
-- Data Transformation  
-- Data Visualization  
-- Business Insight Generation  
-- Stakeholder Communication  
- 
----
+## 📊 Analytical Techniques Applied
 
-## 🔎 Data Analysis Process
-
-### Prepare
-- Downloaded and organized 12 months of trip data  
-- Verified data credibility using ROCCC framework  
-- Reviewed dataset structure and column consistency  
-- Identified data limitations and privacy considerations  
-
-### Process
-- Cleaned missing and inconsistent records  
-- Standardized column names and data types  
-- Created calculated fields:
-  - Ride Length  
-  - Day of Week  
-
-### Analyze
-- Compared ride behavior between casual riders and members  
-- Evaluated ride duration trends  
-- Analyzed ride frequency patterns  
-- Identified usage trends by day of week  
-
-### Share
-- Created visualizations to highlight key behavior differences  
-- Designed dashboards for business interpretation  
-
-### Act
-- Developed marketing strategy recommendations based on data insights  
+- Data cleaning and validation  
+- Column standardization and transformation  
+- Feature engineering:
+  - Ride Length
+  - Day of Week
+  - Month
+- Descriptive statistics:
+  - Mean
+  - Median
+  - Maximum
+  - Distribution analysis
+- Aggregation using PivotTables
+- Comparative behavioral analysis
+- Executive dashboard design
 
 ---
 
-## 📊 Key Insights
-(To be updated after full analysis)
+## 🔎 Project Documentation
 
-- Insight 1  
-- Insight 2  
-- Insight 3  
+Each phase of the data analysis lifecycle is documented separately:
+
+| Phase | Documentation |
+|-------|--------------|
+| Ask | `docs/ask_phase.md` |
+| Prepare | `docs/prepare_phase.md` |
+| Process | `docs/process_phase.md` |
+| Analyze | `docs/analyze_phase.md` |
+| Share | `docs/share_phase.md` |
+| Act | `docs/act_phase.md` |
 
 ---
 
-## 💡 Recommendations
-(To be updated after analysis)
+## 📊 Dashboard Highlights
 
-1. Recommendation 1  
-2. Recommendation 2  
-3. Recommendation 3  
+The final dashboard includes:
+
+- Total Rides by Rider Type  
+- Average Ride Length Comparison  
+- Median Ride Length Comparison  
+- Ride Frequency by Day of Week  
+- Monthly Seasonal Trends  
+- Top Start Stations  
+- Ride Duration Distribution  
+
+Visual outputs are available in the `/visuals` folder.
+
+---
+
+## 💡 Executive Summary of Findings
+
+- Casual riders take fewer trips overall but have longer average ride durations.
+- Annual members show strong weekday riding patterns, indicating commuter behavior.
+- Casual riders peak on weekends and during summer months, suggesting leisure usage.
+- Distinct behavioral differences indicate strong conversion opportunities.
+
+---
+
+## 🚀 Strategic Recommendations
+
+1. Target high-frequency weekend casual riders with commuter-focused membership incentives.
+2. Launch seasonal membership campaigns during peak summer months.
+3. Promote annual membership benefits at high-traffic casual rider stations.
+
+Full recommendations are documented in `docs/act_phase.md`.
 
 ---
 
 ## 📁 Repository Structure
-```
-cyclistic-bike-share-analysis
-├ README.md
-├ .gitignore
-├ data/
-├ analysis/
-├ visuals/
-├ docs/
-└ reports/
-```
-
----
-
-## 🚀 Future Improvements
-- Include weather data correlation  
-- Build predictive models for membership conversion  
-- Automate data cleaning pipeline  
-
----
-
-## 👤 Author
-**Benedict Policarpio**  
-Aspiring Data Analyst | AWS Certified Cloud Practitioner
