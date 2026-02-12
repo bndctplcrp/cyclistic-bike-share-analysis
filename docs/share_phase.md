@@ -96,6 +96,18 @@ Insights:
 - Supports commuter vs recreational segmentation.
 
 ---
+### 6. Ride Duration Distribution
+
+Purpose:
+To visualize how ride duration differs between annual members and casual riders using percentage-based segmentation.
+
+Insights:
+- Members are heavily concentrated in short trips (Under 15 minutes).
+- Casual riders show higher proportions in longer duration categories (30–60 and 60+ minutes).
+- This confirms the commuter vs leisure usage pattern.
+
+Business Relevance:
+Understanding trip length concentration supports targeted membership conversion strategies.
 
 ## Communication Strategy
 
